@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/jquery-UI/jquery-ui.css">
+        <link rel="stylesheet" href="css/jquery-UI/style.css">
+        <link rel="stylesheet"  href="css/style-fullapp.css" type="text/css">
+        
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="js/notes.js" ></script>
+    </head>
+    <body>
+        <header>
+            <div class="topbar">
+                <label class="username">Welcome : </label>
+            </div>
+            
+        </header>
+        <main>
+           
+            <div class="leftnav">
+                <button id="calendar">Calender</button>
+                
+                <button id="notes" class="active">Notes</button>
+                
+            </div>
+            
+          <section class ="widget">  
+            <div id="tabs">
+              <ul>
+                <li ><a href="#officenotes">Office Notes</a></li>
+                <li ><a href="#personanotes">Personal Notes</a></li>
+                <li><a href="#othernotes">Other Notes</a></li>
+                  
+              </ul>
+                <div id="content">
+                  <div id="officenotes">
+                      <button id="saveofficenotes">Save</button>
+                      <textarea type="text" id="textoffice" class="notestext"></textarea>
+
+                  </div>
+                  <div id="personanotes">
+                      <button id="savepersonalnotes">Save</button>
+                    <textarea type="text" id="textpersonal" class="notestext"></textarea>
+                      
+                  </div>
+                  <div id="othernotes">
+                      <button id="saveothernotes">Save</button>
+                    <textarea type="text" id="textother" class="notestext"></textarea>
+                      
+                    </div>
+             </div>
+            </div>
+              <div class="officenotesdisplay">
+             <label>Office Notes</label> 
+            <ul  id="officenotesdisplay"></ul>
+                  </div>
+              <div class="personalnotesdisplay">
+              <label>Personal Notes</label>
+            <ul  id="personalnotesdisplay"></ul>
+                  </div>
+              <div class="othernotesdisplay">
+              <label>Other Notes</label>
+            <ul  id="othernotesdisplay"></ul>
+             </div> 
+        </section>
+            
+        </main>
+    </body>
+</html>

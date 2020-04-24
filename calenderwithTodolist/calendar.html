@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/jquery-UI/jquery-ui.css">
+        <link rel="stylesheet" href="css/jquery-UI/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet"  href="css/style-fullapp.css" type="text/css">
+        
+        
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="js/calendar.js"></script>
+        
+       
+    </head>
+    <body>
+        <header>
+            <div class="topbar">
+                <div id="username-display" class="username"></div>
+            </div>
+            
+        </header>
+        <main>
+           
+            <div class="leftnav">
+                <button id="calendar" class="active">Calender</button>
+              
+              <button id="notes" >Notes</button>
+                
+            </div>
+            
+          <section class ="widget">  
+              <!-- Wright your code here for todo list -->
+              
+               <h1 class="monthyear">
+                   <svg id="rightbutton" viewBox="0 0 75 100" fill="rgba(0,0,0,0.5)">
+                  <polyline points="0,0 75,50 0,100"></polyline>
+              </svg>
+                   <span id="month_year"></span>
+              
+              <svg id="leftbutton" viewBox="0 0 75 100" fill="rgba(0,0,0,0.5)">
+                  <polyline points="0,50 75,0 75,100"></polyline>
+              </svg>
+              
+              
+              
+              </h1>
+              
+              <table>
+                  <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+              </table>
+              
+              <div id="dialog" title="Add Event" style="display: none;">
+            <div class="date-display" id="eventDate"></div>
+                
+             <div class="add-event-title" ><input type="text" id="event" class = "text-field" placeholder="Add Event"></div> 
+                  
+               <div class="display-event-list"><label>List Of Events</label>
+                <ul id="event-list"></ul></div>     
+            
+                  <button id="submit-event">Submit</button>
+             
+              </div>
+              
+              
+              <table id="calendar-content">
+              </table>
+          </section>
+            
+        </main>
+    </body>
+</html>

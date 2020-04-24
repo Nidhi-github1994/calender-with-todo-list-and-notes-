@@ -1,0 +1,437 @@
+* {box-sizing: border-box}
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #fff;
+    
+}
+button :hover{
+    cursor: pointer;
+}
+
+
+/*login page CSS*/
+.main {
+        background-color: #FFFFFF;
+        width: 400px;
+        height: 400px;
+        margin: 7em auto;
+        border-radius: 1.5em;
+        box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    }
+    
+    .sign {
+        padding-top: 40px;
+        color: #8C55AA;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 23px;
+    }
+    
+    .un {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    
+    form.form1 {
+        padding-top: 40px;
+    }
+    
+    .pass {
+            width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    
+   
+    .un:focus, .pass:focus {
+        border: 2px solid rgba(0, 0, 0, 0.18) !important;
+        
+    }
+    
+    .submit {
+      cursor: pointer;
+        border-radius: 5em;
+        color: #fff;
+        background: linear-gradient(to right, #9C27B0, #E040FB);
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 35%;
+        font-size: 13px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    }
+    
+    .forgot {
+        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+        color: #E1BEE7;
+        padding-top: 15px;
+    }
+    
+    a {
+        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+        color: #E1BEE7;
+        text-decoration: none
+    }
+    
+   
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topbar{
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 10%;
+}
+.username{
+    float: right;
+    margin-top: 2.6%;
+    padding-right: 10px;
+}
+
+/* Style the tab */
+.leftnav {
+    
+  float: left;
+  border: 1px solid #bbb;
+  background-color: #f1f1f1;
+  width: 20%;
+  height: 100%;
+}
+
+/* Style the buttons inside the tab */
+.leftnav button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.leftnav button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "leftnav button" class */
+.leftnav button.active {
+  background-color: #ddd;
+}
+
+/* Style the notes content */
+.widget{
+    float: left;
+    width: 79%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.notestext{
+    background: #f2f2f2;
+    border: 0;
+    width: 70%;
+    height: 50%;
+}
+.officenotesdisplay{
+    float: left;
+    width: 25%;
+    height: 50%;
+    background-color: antiquewhite;
+    margin: 30px;
+    border-radius: 6px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1.2em;
+}
+.personalnotesdisplay{
+    float: left;
+    width: 25%;
+    height: 50%;
+    background-color:#f7a2c8;
+    margin: 30px;
+    border-radius: 6px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1.2em;
+}
+.othernotesdisplay{
+    float: left;
+    width: 25%;
+    height: 50%;
+    background-color:aquamarine;
+    margin: 30px;
+    border-radius: 6px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1.2em;
+}
+#content button{
+    float: right;
+    margin-bottom: 10%;
+    
+    margin-right: 20%;
+    border-radius: 4px;
+    color: white;
+    background-color: #007fff;
+    padding: 0px;
+    border: 0px;
+    height: 30px;
+    width: 60px;
+}
+
+.officenotesdisplay ul li{
+    list-style-type: square;
+}
+.personalnotesdisplay ul li{
+    list-style-type: square;
+}
+.othernotesdisplay ul li{
+    list-style-type: square;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the calendar content */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid #aaa;
+}
+td {
+    
+    width: 8em;
+    height: 5em;
+    vertical-align: top;
+    padding: 4 0 0 4;
+    border: 1px solid #aaa;
+}
+td:hover{
+    background-color: #ddd;
+}
+th{
+    width: 8em;
+    height: 2em;
+    vertical-align: top;
+    padding: 20 4 4 4;
+    border: none;
+    color: #082088;
+}
+#month_year{
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.monthyear {
+    color: #082088;
+    margin-bottom: .25em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#rightbutton{
+    margin-right: 30%;
+    float: right;
+    height:20px; 
+    width:20px; 
+    
+    
+}
+#leftbutton{
+    margin-left: 30%;
+    float: left;
+    height:20px;
+    width:20px; 
+    
+   
+}
+.ui-widget.ui-widget-content {
+    
+}
+
+.add-event-title{
+    height: 30px;
+    width: 90%;
+    
+    margin: auto;
+    margin-top: 30px;
+        
+}
+#event{
+    width: 90%;
+    margin: auto;
+}
+#calendar-content tr>td.today-cell{background-color:#a1daee};
+/*td .today-cell{
+    background-color: "#00d4ff";
+}
+    */
+#calendar-content tr>td>span.events{
+    color: #082088;
+}
+.eventslist{
+    color: #082088;
+    
+    font-weight: 400;
+    
+}
+
+.date-display{
+    height: 20px;
+    width: 90%;
+    margin: auto;
+    color: #082088;
+    font-weight: 400;
+    font-size: 1.7em;
+}
+
+.text-field{
+    margin-top: 5%;
+    position: relative;
+  padding: 15px 0 0;
+  margin-top: 5px;
+  width: 50%;
+    font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 1.5px solid #082088;
+  outline: 0;
+  font-size: 1.3rem;
+  
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.text-field:focus {
+ 
+  padding-bottom: 6px;  
+  font-weight: 400;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #082088,#3987c5,#a8d0f0);
+  border-image-slice: 1;
+}
+#submit-event{
+    
+    margin-left: 67%;
+    background-color: #2e4ccf;
+    color: white;
+    border-radius: 6px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    padding: 0px;
+}
+#submit-event:hover{
+    cursor: pointer;
+}
+.display-event-list{
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 62%;
+}
+.display-event-list label{
+    color: #082088;
+    font-family:sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.display-event-list #event-list{
+    
+    font-size: 1.1em;
+    color: black;
+}
+.display-event-list ul{
+    padding: 0px;
+    margin: 10px;
+    list-style-type: square;
+    margin-left: 20px;
+}
+.display-event-list ul span{
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+.display-event-list ul li{
+    list-style-type: square;
+    
+}
+td i{
+    visibility: hidden;
+}
+.display-event-list i{
+    visibility:visible;
+    float: right;
+}
